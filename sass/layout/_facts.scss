@@ -1,0 +1,11 @@
+.section--facts {
+  background-color: gray(2);
+}
+
+.facts {
+  @include limit-width();
+
+  @include mq(big) {
+    @include grid(4);
+  }
+}

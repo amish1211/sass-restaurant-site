@@ -1,0 +1,17 @@
+@import 'abstracts/functions';
+@import 'abstracts/colors';
+@import 'abstracts/typography';
+@import 'abstracts/general';
+@import 'abstracts/mixins.scss';
+
+
+@import 'base/typography';
+
+@import 'layout/general';
+@import 'layout/nav';
+@import 'layout/home';
+@import 'layout/about';
+@import 'layout/facts';
+@import 'layout/meals';
+@import 'layout/testimonials';
+@import 'layout/footer';

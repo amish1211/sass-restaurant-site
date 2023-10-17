@@ -1,0 +1,33 @@
+.nav {
+    position: absolute;
+    left:0;
+    right:0;
+    top: $spacer;
+
+    ul {
+        margin:0;
+        padding:0;
+        list-style: none;
+        font-family: $ff-serif;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 600px;
+        margin-inline: auto;
+    }
+
+    a {
+        color: gray(1);
+        text-decoration: none;
+    }
+}
+
+.logo {
+    display: none;
+
+    @include mq(small) {
+        display: inline-block;
+        width:120px;
+        fill: white;
+    }
+}

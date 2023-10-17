@@ -1,0 +1,9 @@
+.section--home {
+    background: url(/images/home.jpg);
+    background-size: cover;
+    padding:    13em $spacer;
+    min-height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

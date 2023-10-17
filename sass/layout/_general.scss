@@ -1,0 +1,29 @@
+:root {
+    box-sizing: border-box;
+   
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+img,svg {
+    max-width: 100%;
+    display: block;
+}
+
+.section {
+    padding: 4em $spacer;
+}
+
